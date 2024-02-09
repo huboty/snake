@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chm0nya/Desktop/c++/snake/control.cpp
+control.h
+/home/chm0nya/Desktop/c++/snake/control.h
+
+/home/chm0nya/Desktop/c++/snake/control.h
+iostream
+-
+string
+-
+game.h
+/home/chm0nya/Desktop/c++/snake/game.h
+
+/home/chm0nya/Desktop/c++/snake/game.h
+string
+-
+view.h
+/home/chm0nya/Desktop/c++/snake/view.h
+
+/home/chm0nya/Desktop/c++/snake/view.h
+iostream
+-
+string
+-
+
