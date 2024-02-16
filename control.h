@@ -11,4 +11,5 @@ private:
 public:
     Control(Game& game) : game_(game){};
     void run();
+    ~Control() {};
 };

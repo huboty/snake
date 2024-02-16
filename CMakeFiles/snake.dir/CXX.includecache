@@ -28,10 +28,6 @@ game.h
 control.h
 /home/chm0nya/Desktop/c++/snake/control.h
 
-/home/chm0nya/Desktop/c++/snake/view.cpp
-view.h
-/home/chm0nya/Desktop/c++/snake/view.h
-
 /home/chm0nya/Desktop/c++/snake/view.h
 iostream
 -

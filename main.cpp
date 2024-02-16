@@ -5,9 +5,11 @@
 int main()
 {
     Ui* view = Ui::get();
-    Game snake("snake", *view);
-    Control keyboard(snake);
-    keyboard.run();
-    view->~Ui();
+    Game* snake = new Game("snake", *view);
+    Control* keyboard = new Control(*snake);
+    keyboard->run();
+    delete view;
+    delete snake;
+    delete keyboard;
     return 0;
 }
