@@ -3,7 +3,6 @@
 void Control::run()
 {
     std::string command;
-    std::cout << game_.get_name() << std::endl;
     do 
     {
         std::cin >> command;

@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/chm0nya/Desktop/c++/snake/control.cpp
-control.h
-/home/chm0nya/Desktop/c++/snake/control.h
-
 /home/chm0nya/Desktop/c++/snake/control.h
 iostream
 -
@@ -24,9 +20,23 @@ string
 view.h
 /home/chm0nya/Desktop/c++/snake/view.h
 
+/home/chm0nya/Desktop/c++/snake/main.cpp
+view.h
+/home/chm0nya/Desktop/c++/snake/view.h
+game.h
+/home/chm0nya/Desktop/c++/snake/game.h
+control.h
+/home/chm0nya/Desktop/c++/snake/control.h
+
+/home/chm0nya/Desktop/c++/snake/view.cpp
+view.h
+/home/chm0nya/Desktop/c++/snake/view.h
+
 /home/chm0nya/Desktop/c++/snake/view.h
 iostream
 -
 string
+-
+sys/ioctl.h
 -
 

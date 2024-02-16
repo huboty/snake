@@ -4,9 +4,10 @@
 
 int main()
 {
-    Ui view;
-    Game snake("snake", view);
+    Ui* view = Ui::get();
+    Game snake("snake", *view);
     Control keyboard(snake);
     keyboard.run();
+    view->~Ui();
     return 0;
 }
